@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Animated Markers</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="interpolator_array">
+        <item>AccelerateDecelerate</item>
+        <item>Accelerate</item>
+        <item>Anticipate</item>
+        <item>AnticipateOvershoot</item>
+        <item>Bounce</item>
+        <item>Decelerate</item>
+        <item>FastOut</item>
+        <item>FastOutSlowIn</item>
+        <item>Linear</item>
+        <item>LinearOutSlowIn</item>
+        <item>Overshoot</item>
+    </string-array>
+</resources>
