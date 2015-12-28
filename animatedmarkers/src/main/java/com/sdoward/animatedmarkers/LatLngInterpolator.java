@@ -1,4 +1,4 @@
-package sdoward.com.animatedmarkers;
+package com.sdoward.animatedmarkers;
 
 import com.google.android.gms.maps.model.LatLng;
 

@@ -1,4 +1,5 @@
-package sdoward.com.example;
+package com.sdoward.animatedmarkers.example;
+
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
@@ -9,8 +10,8 @@ import android.widget.*;
 
 import com.google.android.gms.maps.*;
 import com.google.android.gms.maps.model.*;
-
-import sdoward.com.animatedmarkers.MarkerAnimator;
+import com.sdoward.animatedmarkers.MarkerAnimator;
+import com.sdoward.example.animatedmarkers.R;
 
 public class MapsActivity extends FragmentActivity implements GoogleMap.OnMapClickListener,
         AdapterView.OnItemSelectedListener, SeekBar.OnSeekBarChangeListener {

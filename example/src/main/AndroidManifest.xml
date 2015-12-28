@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="sdoward.com.example">
+          package="com.sdoward.example.animatedmarkers">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -25,7 +25,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="sdoward.com.example.MapsActivity"
+            android:name="com.sdoward.animatedmarkers.example.MapsActivity"
             android:label="@string/title_activity_maps" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

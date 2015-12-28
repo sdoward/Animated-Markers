@@ -1,4 +1,4 @@
-package sdoward.com.animatedmarkers;
+package com.sdoward.animatedmarkers;
 
 import android.animation.*;
 import android.util.Property;
