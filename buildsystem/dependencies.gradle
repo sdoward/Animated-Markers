@@ -1,0 +1,21 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+
+    googleMapsVersion = '8.4.0'
+    supportVersion = '23.0.1'
+
+    exampleDependencies = [
+            googleMaps: "com.google.android.gms:play-services-maps:${googleMapsVersion}",
+            appCompat : "com.android.support:appcompat-v7:${supportVersion}"
+    ]
+
+    libraryDependencies = [
+            googleMaps: "com.google.android.gms:play-services-maps:${googleMapsVersion}",
+    ]
+
+}
